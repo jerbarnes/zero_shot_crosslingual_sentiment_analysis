@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#This script creates the word2vec models that are used in the experiment
+
 langs=(en es)
 types=(cbow skipgram)
 sizes=(100 200 300)
